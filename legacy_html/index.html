@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hubcom Studio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body class="light-theme">
+    
+    <!-- Removed Custom View Cursor per user request -->
+
+    <!-- Noise Overlay for Editorial Vibe -->
+    <div class="noise-overlay"></div>
+
+    <!-- Top Header & Menu -->
+    <header class="site-header" id="site-header">
+      <div class="header-container">
+        <a href="#" class="logo" id="logo-btn">Hubcom.</a>
+        
+        <nav class="floating-nav">
+          <a href="#" class="nav-btn active">Index</a>
+          <a href="info.html" class="nav-btn">Info</a>
+          <a href="service.html" class="nav-btn">Services</a>
+          <a href="contact.html" class="nav-btn">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Fixed Video (Morphs into gallery) -->
+    <div class="hero-bg-fixed">
+      <video id="hero-vid" muted playsinline preload="auto" src="https://assets.mixkit.co/videos/preview/mixkit-wavy-white-and-gray-liquid-background-11812-large.mp4"></video>
+      <div class="hero-bg-overlay"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <!-- Text elements, no block wrappers to preserve natural line height -->
+        <h1 class="hero-main-title reveal-text">
+          Artistic Vision.<br>
+          <span style="color: var(--color-text-secondary); font-style: italic;">Digital Execution.</span>
+        </h1>
+        <p class="hero-supporting-line reveal-text" style="margin: 0 auto; text-align: center;">
+          We are an editorial-driven digital product studio.<br>
+          Scroll down to explore our work.
+        </p>
+        <div style="margin-top: 40px; text-align: center;">
+          <a href="#contact" class="hero-cta-btn">Discuss Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pinned Horizontal Scroll Section -->
+    <section class="horizontal-scroll-section" id="works" style="position: relative;">
+      
+      <!-- Title floating above the track so it doesn't scroll natively with the projects -->
+      <h2 class="gateway-title" style="position: absolute; top: 50%; transform: translateY(-50%); left: 5vw; font-size: clamp(5rem, 12vw, 12rem); line-height: 0.9; z-index: 10; color: #fff; mix-blend-mode: difference; display: block; pointer-events: none;">
+        <span class="gateway-title-inner" style="display: block; transform: translateX(-100vw);">Selected<br>Works.</span>
+      </h2>
+
+      <div class="horizontal-scroll-track" id="works-track">
+        <!-- Gateway Intro Block: Centered Video Only -->
+        <div class="gateway-block" style="width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; flex-shrink: 0;">
+          <div class="morph-placeholder" style="width: 80vw; height: 80vh; border-radius: 0; flex-shrink: 0;"></div>
+        </div>
+
+        <!-- JS will inject the massive cards here in an asymmetrical rhythm -->
+      </div>
+      
+    </section>
+
+    <!-- 1. THE PHILOSOPHY (Text Reveal) -->
+    <section class="philosophy-section" id="philosophy">
+      <div class="container philosophy-container">
+        <h2 class="philosophy-text reveal-words">
+          <span>We</span> <span>don't</span> <span>just</span> <span>write</span> <span>code.</span><br>
+          <span>We</span> <span>engineer</span> <span>digital</span> <span>businesses</span><br>
+          <span>with</span> <span>artistic</span> <span>precision.</span>
+        </h2>
+      </div>
+    </section>
+
+    <!-- 2. THE PROCESS (Full-screen Pinned Shutter) -->
+    <section class="process-section" id="process">
+      <!-- Unified slowly moving background (Particle Canvas DNA) -->
+      <div class="process-bg">
+        <canvas id="dna-canvas"></canvas>
+      </div>
+      
+      <!-- Content Frames -->
+      <div class="process-frames-container">
+        <!-- Frame 1 -->
+        <div class="process-frame frame-1">
+          <div class="container">
+            <div class="frame-content">
+              <div class="phase-tag">// PHASE 01</div>
+              <h3 class="frame-title">Decode.</h3>
+              <p class="frame-desc">We deconstruct your business challenge into atomic data points, identifying core opportunities that others miss.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Frame 2 -->
+        <div class="process-frame frame-2">
+          <div class="container">
+            <div class="frame-content">
+              <div class="phase-tag">// PHASE 02</div>
+              <h3 class="frame-title">Nucleate.</h3>
+              <p class="frame-desc">From raw data to interactive blueprints. We weave design and logic into a cohesive prototype, giving physical form to abstract ideas.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Frame 3 -->
+        <div class="process-frame frame-3">
+          <div class="container">
+            <div class="frame-content">
+              <div class="phase-tag">// PHASE 03</div>
+              <h3 class="frame-title">Assemble.</h3>
+              <p class="frame-desc">We synthesize code, design, and infrastructure into a living, breathing ecosystem ready to dominate the digital landscape.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW: THE PARTNERS (Bảo chứng Niềm tin) -->
+    <section class="partners-section" id="partners">
+      <div class="partners-intro">
+        <p>Trusted by those who engineer the future.</p>
+      </div>
+      
+      <!-- Infinite Marquee -->
+      <div class="marquee-container">
+        <div class="marquee-track">
+          <!-- Duplicated for infinite effect -->
+          <div class="marquee-logo">ACME CORP</div>
+          <div class="marquee-logo">CYBERDYNE</div>
+          <div class="marquee-logo">STARK IND</div>
+          <div class="marquee-logo">WAYNE ENT</div>
+          <div class="marquee-logo">UMBRELLA</div>
+          <div class="marquee-logo">TYRELL</div>
+          <!-- Duplicate 1 -->
+          <div class="marquee-logo">ACME CORP</div>
+          <div class="marquee-logo">CYBERDYNE</div>
+          <div class="marquee-logo">STARK IND</div>
+          <div class="marquee-logo">WAYNE ENT</div>
+          <div class="marquee-logo">UMBRELLA</div>
+          <div class="marquee-logo">TYRELL</div>
+        </div>
+      </div>
+
+      <!-- Editorial Quote -->
+      <div class="container testimonial-container">
+        <h2 class="testimonial-quote">
+          "HubCom didn't just build our product. They <span class="highlight">decoded</span> our entire market strategy and <span class="highlight">engineered</span> a masterpiece."
+        </h2>
+        <div class="testimonial-author">
+          <div class="author-avatar"></div>
+          <div class="author-info">
+            <div class="author-name">David Chen</div>
+            <div class="author-title">CEO, Global Tech Firm</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. THE IMPACT (Running Counters) -->
+    <section class="impact-section" id="impact">
+      <div class="container impact-container">
+        <div class="impact-item">
+          <div class="impact-number"><span class="counter" data-target="30">0</span>+</div>
+          <div class="impact-label">Digital Products</div>
+        </div>
+        <div class="impact-item">
+          <div class="impact-number">$<span class="counter" data-target="10">0</span>M+</div>
+          <div class="impact-label">Client Revenue</div>
+        </div>
+        <div class="impact-item">
+          <div class="impact-number"><span class="counter" data-target="100">0</span>%</div>
+          <div class="impact-label">Commitment</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMMERSIVE CONTACT SECTION (Conversational Form) -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-container">
+        <div class="contact-header">
+          <h2 class="contact-title">Let's Engineer Your Future.</h2>
+        </div>
+        <div class="conversational-form-container">
+          <form class="conversational-form" action="mailto:contact@hubcom.tech" method="post" enctype="text/plain">
+            <div class="form-sentence">
+              Hi HubCom, my name is 
+              <input type="text" placeholder="Your Name" required class="inline-input"> 
+              and I'm looking for a premium agency to help me build 
+              <input type="text" placeholder="Your Project/Idea" required class="inline-input">. 
+              <br><br>
+              You can reach me at 
+              <input type="email" placeholder="Email Address" required class="inline-input"> 
+              to discuss further.
+            </div>
+            <button type="submit" class="submit-btn conversational-btn">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- FLICKERING FOOTER -->
+    <footer class="flickering-footer">
+      <canvas id="flicker-canvas"></canvas>
+      
+      <div class="container footer-content">
+        <div class="footer-top">
+          <!-- Logo from Prompt -->
+          <div class="footer-brand">
+            <svg width="42" height="24" viewBox="0 0 42 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="footer-logo">
+              <g clip-path="url(#clip0_322_9172)">
+                <path d="M22.3546 0.96832C22.9097 0.390834 23.6636 0.0664062 24.4487 0.0664062C27.9806 0.0664062 31.3091 0.066408 34.587 0.0664146C41.1797 0.0664284 44.481 8.35854 39.8193 13.2082L29.6649 23.7718C29.1987 24.2568 28.4016 23.9133 28.4016 23.2274V13.9234L29.5751 12.7025C30.5075 11.7326 29.8472 10.0742 28.5286 10.0742H13.6016L22.3546 0.96832Z" fill="currentColor"/>
+                <path d="M19.6469 23.0305C19.0919 23.608 18.338 23.9324 17.5529 23.9324C14.021 23.9324 10.6925 23.9324 7.41462 23.9324C0.821896 23.9324 -2.47942 15.6403 2.18232 10.7906L12.3367 0.227022C12.8029 -0.257945 13.6 0.0855283 13.6 0.771372L13.6 10.0754L12.4265 11.2963C11.4941 12.2662 12.1544 13.9246 13.473 13.9246L28.4001 13.9246L19.6469 23.0305Z" fill="currentColor"/>
+              </g>
+              <defs><clipPath id="clip0_322_9172"><rect width="42" height="24" fill="white"/></clipPath></defs>
+            </svg>
+            <h2>HubCom.</h2>
+          </div>
+          <p class="footer-address">35 Street 36, Quarter 2, Binh Trung Ward<br>Ho Chi Minh City, Vietnam</p>
+        </div>
+        
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Process</a>
+            <a href="#">Careers</a>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <a href="#">Digital Products</a>
+            <a href="#">Enterprise Infra</a>
+            <a href="#">Applied AI</a>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <a href="mailto:contact@hubcom.tech">contact@hubcom.tech</a>
+            <a href="tel:+84966868574">+84 966 868 574</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container footer-bottom">
+        <div class="footer-badges">
+          <!-- SOC2 Icon simplified for length -->
+          <div class="badge">SOC2 Certified</div>
+          <div class="badge">HIPAA Compliant</div>
+        </div>
+        <p>&copy; 2026 HubCom Technology. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
