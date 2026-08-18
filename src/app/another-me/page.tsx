@@ -115,7 +115,7 @@ export default function AnotherMeLandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-5xl mx-auto mb-20 items-stretch">
             <Link href="/articles" className="group block relative overflow-hidden rounded-[2.5rem] bg-[#F9FAFB] border border-[rgba(226,232,240,0.5)] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] h-full min-h-[360px]">
               <LightboxImage 
-                src="/projects/AnotherMe/another_me_article_1.jpg" 
+                src="/hubcom/projects/AnotherMe/another_me_article_1.jpg" 
                 alt="Guide: Mastering Your Digital Twin"
                 className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                 containerClassName="w-full h-full absolute inset-0"

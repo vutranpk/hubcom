@@ -15,7 +15,7 @@ export function MinhshopPortfolio() {
         {/* Background Mockup */}
         <div className="absolute inset-0 z-0 opacity-40">
           <Image 
-            src="/projects/Minhshop/minhshop_hero_mockup.jpg"
+            src="/hubcom/projects/Minhshop/minhshop_hero_mockup.jpg"
             alt="Minhshop Hero Mockup"
             fill
             className="object-cover"
@@ -52,7 +52,7 @@ export function MinhshopPortfolio() {
             {/* Left: Journey Map Image */}
             <div className="w-full relative rounded-2xl overflow-hidden shadow-2xl border border-border group">
               <LightboxImage 
-                src="/projects/Minhshop/minhshop_journey_map.jpg"
+                src="/hubcom/projects/Minhshop/minhshop_journey_map.jpg"
                 alt="Connected Commerce Journey"
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-1000"
                 containerClassName="w-full aspect-[16/10] md:aspect-video"
@@ -103,7 +103,7 @@ export function MinhshopPortfolio() {
           {/* 6 Screens Full Bleed Image */}
           <div className="w-full rounded-2xl overflow-hidden shadow-2xl group">
              <LightboxImage 
-                src="/projects/Minhshop/minhshop_6_screens.jpg"
+                src="/hubcom/projects/Minhshop/minhshop_6_screens.jpg"
                 alt="Minhshop Key Screens"
                 className="w-full h-auto block object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                 containerClassName="w-full"
@@ -120,7 +120,7 @@ export function MinhshopPortfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center mb-32 md:mb-48">
             <div className="w-full rounded-2xl overflow-hidden shadow-2xl group">
               <LightboxImage 
-                src="/projects/Minhshop/minhshop_feature_reels.png" 
+                src="/hubcom/projects/Minhshop/minhshop_feature_reels.png" 
                 alt="Reels Commerce Mockup"
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-1000"
                 containerClassName="w-full aspect-[4/3]"
@@ -148,7 +148,7 @@ export function MinhshopPortfolio() {
             </div>
             <div className="w-full rounded-2xl overflow-hidden shadow-2xl group">
               <LightboxImage 
-                src="/projects/Minhshop/minhshop_feature_rewards.jpg" 
+                src="/hubcom/projects/Minhshop/minhshop_feature_rewards.jpg" 
                 alt="Rewards Mockup"
                 className="w-full h-auto object-cover group-hover:scale-[1.02] transition-transform duration-1000"
                 containerClassName="w-full aspect-video"
@@ -168,7 +168,7 @@ export function MinhshopPortfolio() {
             </div>
             <div className="order-1 md:order-2 w-full rounded-2xl overflow-hidden shadow-2xl group">
               <LightboxImage 
-                src="/projects/Minhshop/minhshop_feature_otp.png" 
+                src="/hubcom/projects/Minhshop/minhshop_feature_otp.png" 
                 alt="Offline OTP Mockup"
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-1000"
                 containerClassName="w-full aspect-[4/3]"
@@ -222,7 +222,7 @@ export function MinhshopPortfolio() {
       <section className="w-full relative px-6 md:px-20 py-40 md:py-64 flex flex-col items-center justify-center overflow-hidden bg-background">
         <div className="absolute inset-0 z-0 opacity-30">
           <Image 
-            src="/projects/Minhshop/minhshop_retail_mockup.jpg"
+            src="/hubcom/projects/Minhshop/minhshop_retail_mockup.jpg"
             alt="Retail Store Mockup"
             fill
             className="object-cover"

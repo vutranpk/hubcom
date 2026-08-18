@@ -106,7 +106,7 @@ export default function SoftwareServicePage() {
           {/* Card 1: Custom Software - Image Background */}
           <Link href="/service/software/custom" className="luxury-card block group relative col-span-1 md:col-span-8 rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
             <Image
-              src="/images/service/architecture.png"
+              src="/hubcom/images/service/architecture.png"
               alt="Custom Software Architecture"
               fill
               className="object-cover opacity-40 transition-opacity duration-700 group-hover:opacity-60 mix-blend-luminosity"
@@ -131,7 +131,7 @@ export default function SoftwareServicePage() {
           {/* Card 2: SaaS Platform - Image Background */}
           <Link href="/service/software/saas" className="luxury-card block group relative col-span-1 md:col-span-4 rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
             <Image
-              src="/images/service/cloud.png"
+              src="/hubcom/images/service/cloud.png"
               alt="SaaS Cloud Infrastructure"
               fill
               className="object-cover opacity-40 transition-opacity duration-700 group-hover:opacity-60 mix-blend-luminosity"
@@ -156,7 +156,7 @@ export default function SoftwareServicePage() {
           {/* Card 3: AI Solutions - Image Background */}
           <Link href="/service/software/ai" className="luxury-card block group relative col-span-1 md:col-span-6 rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
             <Image
-              src="/images/service/ai.png"
+              src="/hubcom/images/service/ai.png"
               alt="AI Neural Network"
               fill
               className="object-cover opacity-40 transition-opacity duration-700 group-hover:opacity-60 mix-blend-luminosity"
@@ -181,7 +181,7 @@ export default function SoftwareServicePage() {
           {/* Card 4: Web3 - Image Background */}
           <Link href="/service/software/web3" className="luxury-card block group relative col-span-1 md:col-span-6 rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
             <Image
-              src="/images/service/web3.png"
+              src="/hubcom/images/service/web3.png"
               alt="Web3 Blockchain"
               fill
               className="object-cover opacity-40 transition-opacity duration-700 group-hover:opacity-60 mix-blend-luminosity"

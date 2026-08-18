@@ -53,7 +53,7 @@ export function AnotherMePortfolio() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <LightboxImage 
-            src="/projects/AnotherMe/anotheome-hero.jpeg" 
+            src="/hubcom/projects/AnotherMe/anotheome-hero.jpeg" 
             alt="Another Me Hero"
             className="w-full h-full object-cover opacity-50 mix-blend-screen"
             containerClassName="w-full h-full"
@@ -124,7 +124,7 @@ export function AnotherMePortfolio() {
             <div className="fade-up order-first lg:order-last">
               <div className="w-full aspect-[4/5] rounded-[2.5rem] overflow-hidden bg-background border border-border/50 p-2 shadow-2xl">
                 <LightboxImage 
-                  src="/projects/AnotherMe/another_me_channels.jpg" 
+                  src="/hubcom/projects/AnotherMe/another_me_channels.jpg" 
                   alt="Multi-channel connectivity"
                   className="w-full h-full object-cover rounded-[2rem]"
                   containerClassName="w-full h-full"
@@ -149,7 +149,7 @@ export function AnotherMePortfolio() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center fade-up">
               <div className="w-full rounded-[2rem] overflow-hidden border border-border/50 shadow-2xl bg-background p-2">
                 <LightboxImage 
-                  src="/projects/AnotherMe/another_me_chat.jpg" 
+                  src="/hubcom/projects/AnotherMe/another_me_chat.jpg" 
                   alt="Agent Management & Chat Integration"
                   className="w-full h-auto object-cover rounded-xl"
                   containerClassName="w-full aspect-[4/3] md:aspect-square"
@@ -203,7 +203,7 @@ export function AnotherMePortfolio() {
               </div>
               <div className="order-1 md:order-2 w-full rounded-[2rem] overflow-hidden border border-border/50 shadow-2xl bg-background p-2">
                 <LightboxImage 
-                  src="/projects/AnotherMe/another_me_skills.jpg" 
+                  src="/hubcom/projects/AnotherMe/another_me_skills.jpg" 
                   alt="Skills Marketplace Interface"
                   className="w-full h-auto object-cover rounded-xl"
                   containerClassName="w-full aspect-[4/3] md:aspect-square"
@@ -261,7 +261,7 @@ export function AnotherMePortfolio() {
               </div>
               <div className="order-1 md:order-2 w-full rounded-[2rem] overflow-hidden border border-border/50 shadow-2xl bg-background p-2">
                 <LightboxImage 
-                  src="/projects/AnotherMe/another_me_wallet.jpg" 
+                  src="/hubcom/projects/AnotherMe/another_me_wallet.jpg" 
                   alt="Referral Program Interface"
                   className="w-full h-auto object-cover rounded-xl"
                   containerClassName="w-full aspect-[4/3] md:aspect-square"
@@ -321,7 +321,7 @@ export function AnotherMePortfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-5xl mx-auto mb-20 items-stretch">
             <Link href="/articles" className="group block relative overflow-hidden rounded-[2.5rem] bg-[#0B1221] border border-white/5 h-full min-h-[360px]">
               <LightboxImage 
-                src="/projects/AnotherMe/another_me_article_1.jpg" 
+                src="/hubcom/projects/AnotherMe/another_me_article_1.jpg" 
                 alt="Guide: Mastering Your Digital Twin"
                 className="w-full h-full object-cover opacity-50 mix-blend-luminosity group-hover:opacity-80 group-hover:scale-105 transition-all duration-700"
                 containerClassName="w-full h-full absolute inset-0"

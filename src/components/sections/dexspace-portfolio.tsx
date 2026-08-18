@@ -13,7 +13,7 @@ export function DexspacePortfolio() {
       <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden pt-24 pb-12">
         <div className="absolute inset-0 z-0">
           <LightboxImage 
-            src="/projects/Dexspace/dexspace_hero_mockup.jpg" 
+            src="/hubcom/projects/Dexspace/dexspace_hero_mockup.jpg" 
             alt="DexSpace Hero Mockup"
             className="w-full h-full object-cover opacity-50 mix-blend-screen"
             containerClassName="w-full h-full"
@@ -129,7 +129,7 @@ export function DexspacePortfolio() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center">
               <div className="w-full rounded-2xl overflow-hidden">
                 <LightboxImage 
-                  src="/projects/Dexspace/dexspace_feature_market.jpg" 
+                  src="/hubcom/projects/Dexspace/dexspace_feature_market.jpg" 
                   alt="Market Dashboard"
                   className="w-full h-auto object-cover"
                   containerClassName="w-full aspect-[4/3]"
@@ -183,7 +183,7 @@ export function DexspacePortfolio() {
               </div>
               <div className="order-1 md:order-2 w-full rounded-2xl overflow-hidden">
                 <LightboxImage 
-                  src="/projects/Dexspace/dexspace_feature_swap.png" 
+                  src="/hubcom/projects/Dexspace/dexspace_feature_swap.png" 
                   alt="Token Swap Interface"
                   className="w-full h-auto object-cover"
                   containerClassName="w-full aspect-[4/3]"
@@ -195,7 +195,7 @@ export function DexspacePortfolio() {
             <div className="flex flex-col gap-8 md:gap-12">
               <div className="w-full rounded-2xl overflow-hidden">
                 <LightboxImage 
-                  src="/projects/Dexspace/dexspace_feature_security.png" 
+                  src="/hubcom/projects/Dexspace/dexspace_feature_security.png" 
                   alt="Wallet Security Settings"
                   className="w-full h-auto object-cover"
                   containerClassName="w-full aspect-[4/3] md:aspect-video"
@@ -249,7 +249,7 @@ export function DexspacePortfolio() {
               </div>
               <div className="order-1 md:order-2 w-full rounded-2xl overflow-hidden">
                 <LightboxImage 
-                  src="/projects/Dexspace/Frame%20657.png" 
+                  src="/hubcom/projects/Dexspace/Frame%20657.png" 
                   alt="Launch Token Feature"
                   className="w-full h-auto object-cover"
                   containerClassName="w-full aspect-[4/3]"
@@ -273,7 +273,7 @@ export function DexspacePortfolio() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="w-full aspect-[4/3] rounded-[2rem] overflow-hidden">
               <LightboxImage 
-                src="/projects/Dexspace/mockup_1782747822941.jpg" 
+                src="/hubcom/projects/Dexspace/mockup_1782747822941.jpg" 
                 alt="App Screen 1"
                 className="w-full h-full object-cover"
                 containerClassName="w-full h-full"
@@ -281,7 +281,7 @@ export function DexspacePortfolio() {
             </div>
             <div className="w-full aspect-[4/3] rounded-[2rem] overflow-hidden">
               <LightboxImage 
-                src="/projects/Dexspace/mockup_1782747975203.jpg" 
+                src="/hubcom/projects/Dexspace/mockup_1782747975203.jpg" 
                 alt="App Screen 2"
                 className="w-full h-full object-cover"
                 containerClassName="w-full h-full"
@@ -289,7 +289,7 @@ export function DexspacePortfolio() {
             </div>
             <div className="w-full aspect-[4/3] rounded-[2rem] overflow-hidden">
               <LightboxImage 
-                src="/projects/Dexspace/mockup_1782746285141.jpg" 
+                src="/hubcom/projects/Dexspace/mockup_1782746285141.jpg" 
                 alt="App Screen 3"
                 className="w-full h-full object-cover"
                 containerClassName="w-full h-full"
@@ -313,7 +313,7 @@ export function DexspacePortfolio() {
           
           <div className="w-full rounded-2xl overflow-hidden">
             <LightboxImage 
-              src="/projects/Dexspace/dexspace_brand_kit.png" 
+              src="/hubcom/projects/Dexspace/dexspace_brand_kit.png" 
               alt="DexSpace Brand Kit"
               className="w-full h-auto"
               containerClassName="w-full bg-background"

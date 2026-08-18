@@ -102,7 +102,7 @@ export default function AIServicePage() {
         {/* Hero Image */}
         <div className="reveal-text mt-20 w-full max-w-6xl relative h-[400px] md:h-[600px] rounded-[3rem] overflow-hidden border border-zinc-800 bg-card shadow-2xl shadow-blue-900/10">
           <Image 
-            src="/images/service/hubi_hero.jpg" 
+            src="/hubcom/images/service/hubi_hero.jpg" 
             alt="Hubi AI Agent Core" 
             fill 
             className="object-cover opacity-80 mix-blend-screen"
@@ -218,7 +218,7 @@ export default function AIServicePage() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           {/* IT Company (6 cols) */}
           <div className="luxury-card group relative col-span-1 md:col-span-6 min-h-[480px] rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
-            <Image src="/images/service/hubi_it.png" alt="IT Company" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
+            <Image src="/hubcom/images/service/hubi_it.png" alt="IT Company" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent" />
             <div className="absolute inset-0 p-8 md:p-12 flex flex-col">
               <div className="text-blue-500 font-mono text-sm tracking-widest uppercase mb-2">Featured</div>
@@ -244,7 +244,7 @@ export default function AIServicePage() {
 
           {/* Retail (6 cols) */}
           <div className="luxury-card group relative col-span-1 md:col-span-6 min-h-[480px] rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
-            <Image src="/images/service/hubi_retail.png" alt="Retail" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
+            <Image src="/hubcom/images/service/hubi_retail.png" alt="Retail" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent" />
             <div className="absolute inset-0 p-8 md:p-12 flex flex-col">
               <div className="text-zinc-500 font-mono text-sm tracking-widest uppercase mb-2">02</div>
@@ -268,7 +268,7 @@ export default function AIServicePage() {
 
           {/* Tickets (4 cols) */}
           <div className="luxury-card group relative col-span-1 md:col-span-4 min-h-[360px] rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
-            <Image src="/images/service/hubi_tickets.png" alt="Tickets" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
+            <Image src="/hubcom/images/service/hubi_tickets.png" alt="Tickets" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent" />
             <div className="absolute inset-0 p-8 flex flex-col">
               <div className="text-zinc-500 font-mono text-sm tracking-widest uppercase mb-2">03</div>
@@ -286,7 +286,7 @@ export default function AIServicePage() {
 
           {/* Dental (4 cols) */}
           <div className="luxury-card group relative col-span-1 md:col-span-4 min-h-[360px] rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
-            <Image src="/images/service/hubi_dental.png" alt="Dental" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
+            <Image src="/hubcom/images/service/hubi_dental.png" alt="Dental" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent" />
             <div className="absolute inset-0 p-8 flex flex-col">
               <div className="text-zinc-500 font-mono text-sm tracking-widest uppercase mb-2">04</div>
@@ -304,7 +304,7 @@ export default function AIServicePage() {
 
           {/* Spa (4 cols) */}
           <div className="luxury-card group relative col-span-1 md:col-span-4 min-h-[360px] rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
-            <Image src="/images/service/hubi_spa.png" alt="Spa" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
+            <Image src="/hubcom/images/service/hubi_spa.png" alt="Spa" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent" />
             <div className="absolute inset-0 p-8 flex flex-col">
               <div className="text-zinc-500 font-mono text-sm tracking-widest uppercase mb-2">05</div>
@@ -322,7 +322,7 @@ export default function AIServicePage() {
 
           {/* Education (12 cols) */}
           <div className="luxury-card group relative col-span-1 md:col-span-12 min-h-[400px] rounded-3xl overflow-hidden bg-card border border-zinc-800 transition-colors hover:border-zinc-700">
-            <Image src="/images/service/hubi_education.png" alt="Education" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
+            <Image src="/hubcom/images/service/hubi_education.png" alt="Education" fill className="object-cover opacity-30 transition-opacity duration-700 group-hover:opacity-50 mix-blend-luminosity" />
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent" />
             <div className="absolute inset-0 p-8 md:p-12 flex flex-col justify-end">
               <div className="text-zinc-500 font-mono text-sm tracking-widest uppercase mb-2">06</div>
@@ -352,7 +352,7 @@ export default function AIServicePage() {
         {/* Dashboard Image */}
         <div className="luxury-card w-full max-w-5xl mx-auto mb-20 relative h-[300px] md:h-[500px] rounded-3xl overflow-hidden border border-zinc-800 bg-card shadow-2xl shadow-blue-900/5">
           <Image 
-            src="/images/service/hubi_dashboard.jpg" 
+            src="/hubcom/images/service/hubi_dashboard.jpg" 
             alt="Hubi AI Agent Dashboard" 
             fill 
             className="object-cover opacity-90"
