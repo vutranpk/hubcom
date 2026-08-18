@@ -13,7 +13,7 @@ const caseStudies = [
     client: "Agentic AI",
     description: "Autonomous digital twin system that executes repetitive workforce tasks via a specialized skill marketplace.",
     tags: ["Python", "LLMs", "LangChain", "Automation"],
-    img: "/projects/AnotherMe/anotheome-hero.jpeg",
+    img: "/hubcom/projects/AnotherMe/anotheome-hero.jpeg",
     ctaUrl: "/portfolio/ai-workflows",
     year: "2024"
   },
@@ -22,7 +22,7 @@ const caseStudies = [
     client: "Web3 & Blockchain",
     description: "A decentralized exchange (DEX) screener and token swap platform offering real-time market data, seamless multi-chain swaps, and promotional boost packages.",
     tags: ["Web3.js", "Solidity", "Multi-chain", "DEX Aggregator"],
-    img: "/projects/Dexspace/dexspace_hero_mockup.jpg",
+    img: "/hubcom/projects/Dexspace/dexspace_hero_mockup.jpg",
     ctaUrl: "/portfolio/blockchain-web3",
     year: "2023"
   },
@@ -31,7 +31,7 @@ const caseStudies = [
     client: "Retail & E-Commerce",
     description: "A lifestyle commerce platform built for fashion retail.",
     tags: ["React Native", "Next.js", "AWS", "Loyalty"],
-    img: "/projects/Minhshop/avata-msapp.jpg",
+    img: "/hubcom/projects/Minhshop/avata-msapp.jpg",
     ctaUrl: "/portfolio/e-commerce-retail",
     year: "2024"
   }

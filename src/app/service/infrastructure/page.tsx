@@ -15,7 +15,7 @@ const features = [
     num: "01",
     title: "Network Infrastructure",
     subtitle: "Enterprise-grade networking solutions. We handle everything from site survey to installation and proactive monitoring for 99.9% uptime.",
-    image: "/images/service/infra_network.png",
+    image: "/hubcom/images/service/infra_network.png",
     imageLeft: true,
     href: "/service/infrastructure/network",
     benefits: [
@@ -28,7 +28,7 @@ const features = [
     num: "02",
     title: "Security Camera Systems",
     subtitle: "High-definition surveillance systems with remote access and smart alerts. Keep your business secure 24/7 with crystal clear footage.",
-    image: "/images/service/infra_security.png",
+    image: "/hubcom/images/service/infra_security.png",
     imageLeft: false,
     href: "/service/infrastructure/security",
     benefits: [
@@ -41,7 +41,7 @@ const features = [
     num: "03",
     title: "Office IT Equipment",
     subtitle: "Hardware procurement and provisioning. We supply, pre-configure, and deploy computers, servers, and office equipment.",
-    image: "/images/service/infra_hardware.png",
+    image: "/hubcom/images/service/infra_hardware.png",
     imageLeft: true,
     href: "/service/infrastructure/equipment",
     benefits: [
@@ -54,7 +54,7 @@ const features = [
     num: "04",
     title: "Monthly IT Support Package",
     subtitle: "Your outsourced IT department. Fast response times, on-site support, and 24/7 availability at a fraction of the cost of hiring internally.",
-    image: "/images/service/infra_msp.png",
+    image: "/hubcom/images/service/infra_msp.png",
     imageLeft: false,
     href: "/service/infrastructure/support",
     benefits: [

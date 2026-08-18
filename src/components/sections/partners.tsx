@@ -14,18 +14,18 @@ if (typeof window !== "undefined") {
 }
 
 const partnerLogos = [
-  "/logo-partner/partner-logo.png",
-  "/logo-partner/partner-logo-1.png",
-  "/logo-partner/partner-logo-2.png",
-  "/logo-partner/partner-logo-3.png",
-  "/logo-partner/partner-logo-4.png",
-  "/logo-partner/partner-logo-5.png",
-  "/logo-partner/partner-logo-6.png",
-  "/logo-partner/partner-logo-7.png",
-  "/logo-partner/partner-logo-8.png",
-  "/logo-partner/partner-logo-9.png",
-  "/logo-partner/partner-logo-10.png",
-  "/logo-partner/partner-logo-11.png",
+  "/hubcom/logo-partner/partner-logo.png",
+  "/hubcom/logo-partner/partner-logo-1.png",
+  "/hubcom/logo-partner/partner-logo-2.png",
+  "/hubcom/logo-partner/partner-logo-3.png",
+  "/hubcom/logo-partner/partner-logo-4.png",
+  "/hubcom/logo-partner/partner-logo-5.png",
+  "/hubcom/logo-partner/partner-logo-6.png",
+  "/hubcom/logo-partner/partner-logo-7.png",
+  "/hubcom/logo-partner/partner-logo-8.png",
+  "/hubcom/logo-partner/partner-logo-9.png",
+  "/hubcom/logo-partner/partner-logo-10.png",
+  "/hubcom/logo-partner/partner-logo-11.png",
 ];
 
 export function Partners() {

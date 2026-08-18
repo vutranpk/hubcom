@@ -10,7 +10,7 @@ const articles = [
     date: "Jun 24, 2026",
     readTime: "8 min read",
     excerpt: "How autonomous digital twins are moving beyond chatbots to execute complex, multi-step tasks across integrated enterprise systems.",
-    img: "/projects/another-me-mockup.jpg",
+    img: "/hubcom/projects/another-me-mockup.jpg",
   },
   {
     title: "Designing for Trust in Fintech Platforms",
@@ -18,7 +18,7 @@ const articles = [
     date: "May 12, 2026",
     readTime: "6 min read",
     excerpt: "Trust is the currency of fintech. Explore the psychological and UX principles necessary to build absolute confidence in digital banking.",
-    img: "/projects/Fintech.jpg",
+    img: "/hubcom/projects/Fintech.jpg",
   },
   {
     title: "Scaling Omnichannel Retail with Next.js",
@@ -26,7 +26,7 @@ const articles = [
     date: "Apr 05, 2026",
     readTime: "12 min read",
     excerpt: "A deep dive into the architecture that handles millions of SKUs and unified loyalty systems across physical and digital storefronts.",
-    img: "/projects/E-commerce-retail-v2.jpg",
+    img: "/hubcom/projects/E-commerce-retail-v2.jpg",
   },
   {
     title: "Security Auditing in Web3 Infrastructure",
@@ -34,7 +34,7 @@ const articles = [
     date: "Mar 18, 2026",
     readTime: "9 min read",
     excerpt: "Lessons learned from deploying high-value smart contracts and securing decentralized wallet architectures against modern vectors.",
-    img: "/projects/Dexspace/dexspace_hero_mockup.jpg",
+    img: "/hubcom/projects/Dexspace/dexspace_hero_mockup.jpg",
   }
 ];
 

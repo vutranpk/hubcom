@@ -17,7 +17,7 @@ const serviceData = {
     tags: ["Core Banking", "Payment Processing", "KYC Automation", "PCI-DSS Compliant"],
     featuredProject: "Finova Banking App",
     output: "A modern neobanking experience focused on rapid user onboarding and clear transaction flows.",
-    img: "/projects/Fintech.jpg",
+    img: "/hubcom/projects/Fintech.jpg",
     accent: "bg-emerald-500",
     richContent: {
       goal: "Finova aimed to disrupt traditional banking with a digital-first approach. They needed an application that could onboard users in under 3 minutes, provide real-time transaction tracking, and ensure absolute regulatory compliance.",
@@ -28,7 +28,7 @@ const serviceData = {
         { title: "Financial Insights", desc: "Machine learning algorithms categorizing user spending habits." }
       ],
       solution: "We developed a highly resilient event-driven microservices architecture using Golang and Kafka. The mobile application, built with Swift and Kotlin, communicates via secure gRPC APIs, delivering a buttery-smooth, native banking experience.",
-      solutionImg: "/projects/Fintech.jpg",
+      solutionImg: "/hubcom/projects/Fintech.jpg",
       featuresList: [
         "AI-powered eKYC and biometric authentication",
         "Real-time event-driven transaction ledger",
@@ -38,11 +38,11 @@ const serviceData = {
       ],
       successIntro: "We build financial systems that people trust. The Finova platform now securely processes millions in daily transaction volume with zero downtime.",
       successStories: [
-        { title: "Finova Neobank", desc: "A sleek, intuitive mobile banking interface that turns complex finance into simple interactions.", img: "/projects/Fintech.jpg" },
-        { title: "Merchant Gateway", desc: "A robust B2B payment processing dashboard tailored for high-volume enterprise clients.", img: "/projects/E-commerce-retail-v2.jpg" }
+        { title: "Finova Neobank", desc: "A sleek, intuitive mobile banking interface that turns complex finance into simple interactions.", img: "/hubcom/projects/Fintech.jpg" },
+        { title: "Merchant Gateway", desc: "A robust B2B payment processing dashboard tailored for high-volume enterprise clients.", img: "/hubcom/projects/E-commerce-retail-v2.jpg" }
       ],
       gallery: [
-        "/projects/Fintech.jpg"
+        "/hubcom/projects/Fintech.jpg"
       ]
     }
   },
@@ -52,7 +52,7 @@ const serviceData = {
     tags: ["Autonomous Agents", "Workflow Automation", "LLM Integration", "RAG Systems"],
     featuredProject: "Another Me AI",
     output: "An advanced AI operating system that empowers users to clone their workflows and delegate tasks.",
-    img: "/projects/another-me-mockup.jpg",
+    img: "/hubcom/projects/another-me-mockup.jpg",
     accent: "bg-[#CCFF00]",
     richContent: {
       goal: "The objective was to create a platform where enterprises could deploy autonomous 'digital twins'. Instead of passive chatbots, the client needed active agents capable of researching, executing code, and managing long-running tasks independently.",
@@ -63,7 +63,7 @@ const serviceData = {
         { title: "Command Center", desc: "A unified dashboard to monitor agent activity, energy, and success rates." }
       ],
       solution: "We engineered a robust Agentic framework using Python, LangChain, and state-of-the-art LLMs. The frontend 'Command Center' was built with React, providing real-time WebSocket streams of agent reasoning logs, execution timelines, and resource utilization.",
-      solutionImg: "/projects/AI-Workflows/mockup_1782291064362.jpg",
+      solutionImg: "/hubcom/projects/AI-Workflows/mockup_1782291064362.jpg",
       featuresList: [
         "Multi-agent orchestration for complex parallel workflows",
         "Real-time WebSocket streaming of agent reasoning paths",
@@ -73,15 +73,15 @@ const serviceData = {
       ],
       successIntro: "We are moving businesses into the Era of Execution. Our Agentic AI deployments have automated thousands of hours of manual operational work.",
       successStories: [
-        { title: "Another Me Command Center", desc: "An intuitive terminal to deploy, monitor, and interact with your fleet of specialized AI agents.", img: "/projects/AI-Workflows/mockup_1782292270791.jpg" },
-        { title: "Automated Data Processing", desc: "Agents autonomously extracting, cleaning, and synthesizing data from thousands of daily unstructured reports.", img: "/projects/AI-Workflows/mockup_1782293432062.jpg" }
+        { title: "Another Me Command Center", desc: "An intuitive terminal to deploy, monitor, and interact with your fleet of specialized AI agents.", img: "/hubcom/projects/AI-Workflows/mockup_1782292270791.jpg" },
+        { title: "Automated Data Processing", desc: "Agents autonomously extracting, cleaning, and synthesizing data from thousands of daily unstructured reports.", img: "/hubcom/projects/AI-Workflows/mockup_1782293432062.jpg" }
       ],
       gallery: [
-        "/projects/AI-Workflows/mockup_1782291064362.jpg",
-        "/projects/AI-Workflows/mockup_1782292270791.jpg",
-        "/projects/AI-Workflows/mockup_1782293432062.jpg",
-        "/projects/AI-Workflows/mockup_1782294279784.jpg",
-        "/projects/AI-Workflows/mockup_1782294355666.jpg"
+        "/hubcom/projects/AI-Workflows/mockup_1782291064362.jpg",
+        "/hubcom/projects/AI-Workflows/mockup_1782292270791.jpg",
+        "/hubcom/projects/AI-Workflows/mockup_1782293432062.jpg",
+        "/hubcom/projects/AI-Workflows/mockup_1782294279784.jpg",
+        "/hubcom/projects/AI-Workflows/mockup_1782294355666.jpg"
       ]
     }
   }

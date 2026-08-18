@@ -19,7 +19,7 @@ export default function ArticleDetailPage({ params }: { params: { slug: string }
     date: "Jun 24, 2026",
     author: "Hubcom Research",
     readTime: "8 min read",
-    coverImg: "/projects/another-me-mockup.jpg",
+    coverImg: "/hubcom/projects/another-me-mockup.jpg",
   };
 
   return (
