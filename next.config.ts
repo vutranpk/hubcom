@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
+  basePath: '/hubcom',
   images: { unoptimized: true },
   devIndicators: false,
   // Allow network access for local testing on mobile/other PCs
