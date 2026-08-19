@@ -66,7 +66,7 @@ export function Footer() {
         {/* Bottom: Copyright & Legal */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 border-t border-foreground/10 text-[10px] md:text-xs text-muted-foreground font-mono uppercase tracking-widest">
           <div className="flex flex-col gap-2 text-center md:text-left">
-            <span>Design by Hubcom</span>
+            <span>design by <a href="mailto:vutranpk@gmail.com" className="hover:underline">vutranpk</a></span>
             <span className="text-foreground/40">HUBCOM TECHNOLOGY COMPANY LIMITED — MST: 0317789489</span>
           </div>
           <div className="flex gap-8">

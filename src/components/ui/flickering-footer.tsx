@@ -65,7 +65,7 @@ export function FlickeringFooter({ className }: { className?: string }) {
           <span className="bg-[#F3F5F7]/10 border border-[#3B82F6]/15 px-3 py-1.5 rounded-full text-xs font-mono text-[#F3F5F7]/80">HIPAA Compliant</span>
         </div>
         <p className="text-[#94A3B8] text-xs font-sans">
-          Design by Hubcom
+          design by <a href="mailto:vutranpk@gmail.com" className="hover:underline">vutranpk</a>
         </p>
       </div>
     </footer>
