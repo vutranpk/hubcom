@@ -83,7 +83,7 @@ export function Hero() {
       // Load first frame immediately for instant visual
       const firstImg = new window.Image();
       firstImg.decoding = "async";
-      firstImg.src = isMobile ? `/images/mobile/hubcom000.webp` : `/images/hubcom000.webp`;
+      firstImg.src = isMobile ? `/hubcom/images/mobile/hubcom000.webp` : `/hubcom/images/hubcom000.webp`;
       firstImg.onload = () => {
         images[0] = firstImg;
         render();
@@ -95,7 +95,7 @@ export function Hero() {
           img.decoding = "async";
           img.fetchPriority = "low";
           const indexStr = (currentIndex * step).toString().padStart(3, '0');
-          img.src = isMobile ? `/images/mobile/hubcom${indexStr}.webp` : `/images/hubcom${indexStr}.webp`;
+          img.src = isMobile ? `/hubcom/images/mobile/hubcom${indexStr}.webp` : `/hubcom/images/hubcom${indexStr}.webp`;
           
           const onComplete = () => {
              currentIndex++;
